@@ -1,0 +1,47 @@
+body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vw;
+    border: solid black;
+}
+
+.container {
+    display: flex;
+    gap: 52.5vw;
+}
+
+.logout {  
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background: #FFFFFF;
+    border: 3.64219px solid #2D61AF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #2D61AF;
+}
+
+.welcome-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.4953px;
+    line-height: 31px;
+    color: #2D61AF;
+}
+
+.footer-text {
+    margin-top: 75vh;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: rgba(0, 0, 0, 0.55);
+}
