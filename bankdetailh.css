@@ -2,6 +2,7 @@ body {
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: 2vw;
+    background-image: url(/images/Backg40.png);
     /* border: solid black; */
 }
 
@@ -22,6 +23,7 @@ body {
     display: flex;
     justify-content:space-between;
     flex-direction: row; 
+    margin-bottom: -2vh;
 }
 
 .container4 {
@@ -97,8 +99,112 @@ body {
     color: #2D61AF;
 }
 
+.row {
+    padding-top: 0.5vh;
+    display: flex;
+    margin-bottom: 2.5vh;
+    flex-direction: row;
+}
+
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding-bottom: 0.6vh;
+}
+
+.form {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2D61AF;
+    margin-right: 30vw;
+    margin-top: 3vh;
+}
+
+.exception{
+    margin-top: 0.75vh;
+    background: #FFFFFF;
+    height: 5vh;
+    width: 48vw;
+    border: 3.64219px solid rgba(0, 0, 0, 0.87);
+    box-sizing: border-box;
+}
+.name{
+    margin-top: 0.75vh;
+    background: #FFFFFF;
+    height: 5vh;
+    width: 23.5vw;
+    border: 3.64219px solid rgba(0, 0, 0, 0.87);
+    box-sizing: border-box;
+
+}
+input[type="number"] {
+    margin-top: 0.75vh;
+    background: #FFFFFF;
+    height: 5vh;
+    width: 48vw;
+    border: 3.64219px solid rgba(0, 0, 0, 0.87);
+    box-sizing: border-box;
+
+}
+
+.submitdetail {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    width: 48vw;
+    font-size: 25.4953px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2D61AF;
+    padding: 1.35vh;
+    border: 3.64219px solid #2D61AF;
+}
+
+.submitdetail:hover {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    width: 48vw;
+    font-size: 25.4953px;
+    line-height: 31px;
+    text-align: center;
+    color: black;
+    background: linear-gradient(155.28deg, #E49E9E -85.53%, rgba(138, 138, 255, 0) 137.24%, rgba(124, 222, 116, 0) 341.44%);
+    padding: 1.35vh;
+    border: solid #2D61AF;
+    cursor: pointer;
+
+}
+
+input{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.4953px;
+    line-height: 31px;
+    color: #2F2E41;
+}
+
+input:hover {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.4953px;
+    line-height: 31px;
+}
+
+
 .footer-text {
-    margin-top: 4vh;
+    margin-top: 2.5vh;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
