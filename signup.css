@@ -38,7 +38,7 @@ input[type="text"] {
     margin-top: 0.75vh;
     background: #FFFFFF;
     height: 5vh;
-    width: 23vw;
+    width: 23.5vw;
     border: 3.64219px solid rgba(0, 0, 0, 0.87);
     box-sizing: border-box;
 
@@ -58,7 +58,7 @@ input[type="password"] {
     margin-top: 0.75vh;
     background: #FFFFFF;
     height: 5vh;
-    width: 23vw;
+    width: 23.5vw;
     border: 3.64219px solid rgba(0, 0, 0, 0.87);
     box-sizing: border-box;
 
