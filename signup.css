@@ -3,6 +3,7 @@ body {
     margin-right: 10vw;
     margin-top: 2vw;
     background-image: url("/images/Backg10.png");
+    background-repeat: no-repeat;
 }
 
 label {
@@ -156,7 +157,7 @@ input:hover {
 }
 
 p {
-    margin-top: 35vh;
+    margin-top: 10vh;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
