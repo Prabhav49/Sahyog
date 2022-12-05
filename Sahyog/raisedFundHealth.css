@@ -1,0 +1,242 @@
+body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vw;
+    /* border: solid black; */
+}
+
+.container {
+    display: flex;
+    margin-bottom: -1%;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: -2.5%;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: -2vh;
+}
+
+.container4 {
+    display: flex;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: -3%;
+}
+
+.container7{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container7sub {
+    width: 60vw;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(180deg, #8EC5FC 0%, #E0C3FC 50%, #ffffff 100%);
+    margin-top: 2vh;
+    padding: 3.5vh;
+    border: solid black;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1vw;
+}
+
+.container12 {
+    padding: 0vh 1.2vw 0vh 1.2vw;
+    margin-top: 2vh;
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0.3vw;
+
+}
+
+.container14 {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.logout {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background: #FFFFFF;
+    border: 3.64219px solid #2D61AF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #2D61AF;
+    cursor: pointer;
+}
+
+.logout:hover {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background: linear-gradient(180deg, #E81E1E -600%, rgba(228, 42, 1, 0.490554) -105.72%, rgba(35, 32, 200, 0) 370.24%);
+    border: 3.64219px solid #2D61AF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #2D61AF;
+    cursor: pointer;
+
+}
+
+.welcome-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.4953px;
+    line-height: 31px;
+    color: #2D61AF;
+}
+
+.hi-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 31px;
+    color: #2F2E41;
+}
+
+.date {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 31px;
+    color: #2F2E41;
+}
+
+.time {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.4953px;
+    line-height: 31px;
+    color: #2D61AF;
+}
+
+.your-detail {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #2F2E41;
+}
+
+
+.amount {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 30px;
+    color: #24AB72;
+
+}
+
+.outOf {
+    padding-top: 3vh;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2F2E41;
+}
+
+.totalAmt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 30px;
+    color: #2F2E41;
+}
+
+.data {
+    padding-top: 1vh;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #36334A;
+}
+
+.funds-received {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #2F2E41;
+    margin-bottom: -2vh;
+}
+
+
+hr {
+    height: 0.2vh;
+    background: #3F3D56;
+}
+
+.line {
+    margin-top: 2vh;
+    margin-bottom: -2vh;
+}
+
+.goBack {
+    cursor: pointer;
+    padding: 1vh 4vw 1vh 4vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.2121px;
+    line-height: 26px;
+    background: #2D61AF;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.goBack:hover {
+    color: #000000;
+    background: linear-gradient(155.28deg, #E49E9E -85.53%, rgba(138, 138, 255, 0) 137.24%, rgba(124, 222, 116, 0) 341.44%);
+
+}
+
+.footer-text {
+    margin-top: 3vh;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: rgba(0, 0, 0, 0.55);
+}
